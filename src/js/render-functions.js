@@ -46,7 +46,6 @@ export function hideLoader() {
   }
 }
 
-// НОВІ ФУНКЦІЇ ДЛЯ КНОПКИ LOAD MORE
 export function showLoadMoreButton() {
   if (loadMoreBtn) {
     loadMoreBtn.classList.remove('is-hidden');

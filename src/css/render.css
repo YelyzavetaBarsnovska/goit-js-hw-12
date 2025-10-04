@@ -49,3 +49,12 @@
   font-weight: bold;
   margin-top: 4px;
 }
+
+.load-more {
+  display: block;
+  margin: 20px auto;
+}
+
+.is-hidden {
+  display: none !important;
+}

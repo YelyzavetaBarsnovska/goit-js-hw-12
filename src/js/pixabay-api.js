@@ -12,8 +12,8 @@ export async function getImagesByQuery(query, page = 1) {
         image_type: 'photo',
         orientation: 'horizontal',
         safesearch: true,
-        per_page: 15, // Змінити на 15
-        page: page, // Додати параметр сторінки
+        per_page: 15,
+        page: page,
       },
     });
     return response.data;
