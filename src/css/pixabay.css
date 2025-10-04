@@ -1,0 +1,85 @@
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.form input {
+  padding: 10px 14px;
+  font-size: 16px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form input:focus {
+  border-color: #3498db;
+}
+
+.form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 2px solid #3498db;
+  background-color: #3498db;
+  color: white;
+  transition: all 0.3s;
+}
+
+.form button:hover {
+  color: #fff;
+  border: 3px solid #3498db;
+  background-color: #3498db;
+}
+
+.form button:active {
+  background-color: #5dade2;
+  border: 2px solid #3498db;
+  color: white;
+}
+
+/* Лоадер */
+.loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 40px auto;
+}
+
+.is-hidden {
+  display: none;
+}
+
+/* Кнопка Load More */
+.load-more {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.load-more:hover {
+  background-color: #2980b9;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
